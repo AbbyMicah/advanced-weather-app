@@ -1,19 +1,14 @@
-import SearchEngine from './SearchEngine';
+import Weather from './Weather';
 import './App.css';
 function App() {
   return (
     <div className="App">
-      <SearchEngine />
-      <form>
-        <input
-          type="search"
-          placeholder="Type a city" />
-        <input type="submit" value="Enter" />
-      </form>
-    
-         <a href="https://github.com/AbbyMicah/advanced-weather-app" target_blank>This project was coded by Abigail Ideyi and is opened sourced in github</a><a href=""> and hosted on Netlify</a>
-      
-    </div>
+      <Weather />
+    <footer>
+      <p> This projected was coded by Abigail Ideyi and is 
+         <a href="https://github.com/AbbyMicah/advanced-weather-app" target_blank> opened sourced in github</a> and <a href="" target="_blank"> and hosted on Netlify</a>  </p>
+         </footer>  
+    </div> 
   );
 }
 
