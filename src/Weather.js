@@ -28,7 +28,7 @@ export default function Weather(){
       </ul>
     <div className="row"  >
       <div className="col-6">
-        <img src="https://whatemoji.org/wp-content/uploads/2020/07/Sun-Behind-Cloud-Emoji.png"width="100"/>
+        <img src="https://whatemoji.org/wp-content/uploads/2020/07/Sun-Behind-Cloud-Emoji.png"width="100" alt="sun-behind-cloud-image"/>
       </div>
       <div className="col-6">
         <ul>
