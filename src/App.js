@@ -6,14 +6,14 @@ function App() {
     <div className="App">
       <Weather />
       <footer>
-        <p> 
-          This projected was coded by
+        
+          This project was coded by
           <a rel='noreferrer' href="https://abbyideyisportfolio.netlify.app/" target="_blank"> Abigail Ideyi</a>, 
-          is 
-          <a rel='noreferrer' href="https://github.com/AbbyMicah/advanced-weather-app" target="_blank"> open-sourced on github</a> 
-          and 
+          is open-sourced on 
+          <a rel='noreferrer' href="https://github.com/AbbyMicah/advanced-weather-app" target="_blank">  github</a> 
+          and on 
           <a rel='noreferrer' href="https://myreactweatherproject.netlify.app/" target="_blank"> Netlify </a>  
-        </p>
+      
       </footer>
     </div>
   );
