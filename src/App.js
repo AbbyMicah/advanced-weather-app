@@ -5,11 +5,17 @@ function App() {
   return (
     <div className="App">
       <Weather />
-    <footer>
-      <p> This projected was coded by<a href="https://abbyideyisportfolio.netlify.app/"target="_blank"> Abigail Ideyi</a>, is 
-         <a href="https://github.com/AbbyMicah/advanced-weather-app" target_blank> open-sourced on github</a> and <a href="https://myreactweatherproject.netlify.app/" target="_blank">Netlify</a>  </p>
-         </footer>  
-    </div> 
+      <footer>
+        <p> 
+          This projected was coded by
+          <a rel='noreferrer' href="https://abbyideyisportfolio.netlify.app/" target="_blank"> Abigail Ideyi</a>, 
+          is 
+          <a rel='noreferrer' href="https://github.com/AbbyMicah/advanced-weather-app" target="_blank"> open-sourced on github</a> 
+          and 
+          <a rel='noreferrer' href="https://myreactweatherproject.netlify.app/" target="_blank"> Netlify </a>  
+        </p>
+      </footer>
+    </div>
   );
 }
 

@@ -5,7 +5,8 @@
   border-radius:4px;
   padding:16px;
   color: rgba(135, 135, 135);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
 }
 
 li{
