@@ -8,11 +8,13 @@ export default function Weather(){
     console.log(response.data);
     setWeatherData({
       ready: true,
-      temperature: response.data.main.temp,
-      humidity: response.data.main.humidity,
+      city: response.data.city,
+      temperature: response.data.temperature.current,
+      humidity: response.data.temperature.humidity,
     date: new Date(response.data.dt*1000),
-    iconUrl: response.data.weather[0].icon,
-      description: response.data.weather[0].description,
+    iconUrl:response.data.condition.icon_url,
+    icon:response.data.condition.icon,
+      description:response.data.condition.description,
       wind: response.data.wind.speed,
       city: response.data.name,
     });
@@ -70,9 +72,9 @@ export default function Weather(){
       </div>
     )  
   } else {
-   const apiKey= "c8a77112b2faf6684bb4b21a0aa778ae";
-  let city="madrid"
-  let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+   const apiKey= "0dbe3edd0f2e43o0a1f5a4d8b80t5af4";
+  let city="madrid";
+  let apiUrl=`https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
 axios.get(apiUrl).then(showTemperature);
 return"Loading"  
   }
