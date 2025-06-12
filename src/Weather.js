@@ -26,10 +26,10 @@ export default function Weather(){
           <div className="col-9">
           <input
           type="search" 
-          placeholder="Type a city" className="form-control"/>  
+          placeholder="Enter a city" className="form-control" autoFocus="on"/>  
           </div>
           <div className="col-3">
-           <input type="submit" value="Submit" className="btn btn-primary" /> 
+           <input type="submit" value="Search" className="btn btn-primary w-100" /> 
           </div>
         </div>
       </form>
@@ -48,10 +48,12 @@ export default function Weather(){
       <div className="col-6">
         <div className="clearfix"> 
         <img src="{weatherData.iconUrl}" alt="{weatherData.description}" className="float-left"/>
-      </div>
-      <div className="float-left">
+       <div className="float-left">
         <span className="temperature">{Math.round(weatherData.temperature)}</span>
-        <span className="unit">ºc</span></div></div>
+        <span className="unit">ºc</span>
+        </div>
+        </div>
+        </div>
       <div className="col-6">
         <ul>
   
