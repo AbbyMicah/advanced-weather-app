@@ -16,7 +16,7 @@ export default function Weather(){
     icon:response.data.condition.icon,
       description:response.data.condition.description,
       wind: response.data.wind.speed,
-      city: response.data.name,
+
     });
 
   }
