@@ -11,4 +11,9 @@ export default function FormattedDate(props){
         if (minutes < 18){
             minutes = `0${minutes}`;
         }
+        return(
+            <div>
+                {day} {hours}:{minutes}
+            </div>
+        );
 }

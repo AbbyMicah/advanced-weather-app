@@ -11,7 +11,7 @@ export default function Weather(){
       city: response.data.city,
       temperature: response.data.temperature.current,
       humidity: response.data.temperature.humidity,
-    date: new Date(response.data.dt*1000),
+    date: new Date(response.data.time*1000),
     iconUrl:response.data.condition.icon_url,
     icon:response.data.condition.icon,
       description:response.data.condition.description,
